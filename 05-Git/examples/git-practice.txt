@@ -1,0 +1,114 @@
+GIT BASICS - PRACTICAL COMMANDS
+
+1. GIT INSTALLATION AND VERSION
+
+sudo apt install git
+git --version
+
+Description:
+Installs Git on Ubuntu and checks the installed version.
+
+
+2. INITIALIZE A REPOSITORY
+
+git init
+
+Description:
+Initializes the current project directory as a Git repository.
+
+
+3. CONFIGURE GIT
+
+git config user.name "Vishesh"
+git config user.email "vishesh4085@gmail.com"
+
+Description:
+Sets the username and email for the current repository.
+
+
+4. CHECK REPOSITORY STATUS
+
+git status
+
+Description:
+Displays the current state of the working directory and staging area.
+
+
+5. STAGE FILES
+
+git add readme.txt
+git add .
+
+Description:
+Adds a specific file or all changes to the staging area.
+
+
+6. COMMIT CHANGES
+
+git commit -m "Adding first file."
+
+Description:
+Saves the staged changes as a commit in the repository.
+
+
+7. VIEW CHANGES
+
+git diff
+
+Description:
+Displays changes made to tracked files that have not been staged.
+
+
+8. RESTORE CHANGES
+
+git restore readme.txt
+git restore --staged readme.txt
+
+Description:
+Discards unstaged changes or removes a file from the staging area.
+
+
+9. VIEW COMMIT HISTORY
+
+git log
+git log --oneline
+
+Description:
+Displays the commit history in detailed or compact form.
+
+
+10. REVERT A COMMIT
+
+git revert COMMIT-HASH
+
+Description:
+Creates a new commit that reverses the changes introduced by an earlier commit.
+
+
+11. REMOVE A FILE
+
+git rm readme.txt
+
+Description:
+Removes a file from the working directory and stages its deletion.
+
+
+12. CHECKOUT AN EARLIER COMMIT
+
+git checkout COMMIT-HASH
+
+Description:
+Moves the working directory to an earlier commit.
+
+
+13. RETURN TO THE LATEST BRANCH
+
+git checkout main
+
+Description:
+Switches back to the main branch.
+
+
+NOTE:
+Replace example filenames, usernames, email addresses and commit hashes with actual values.
+The installation command shown above is for Ubuntu.

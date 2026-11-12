@@ -1,0 +1,21 @@
+
+PROJECT_NAME           = "Doxygen Practical"
+PROJECT_BRIEF          = "C++ Code Documentation Example"
+
+OUTPUT_DIRECTORY       = outputs
+
+INPUT                  = examples
+RECURSIVE              = YES
+
+FILE_PATTERNS          = *.cpp *.h
+
+EXTRACT_ALL            = YES
+EXTRACT_PRIVATE        = YES
+
+GENERATE_HTML          = YES
+GENERATE_LATEX         = NO
+
+HTML_OUTPUT            = html
+
+QUIET                  = YES
+WARN_IF_UNDOCUMENTED   = NO
