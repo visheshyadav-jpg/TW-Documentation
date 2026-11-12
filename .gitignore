@@ -1,0 +1,12 @@
+# LaTeX temporary files
+*.aux
+*.log
+*.out
+*.toc
+*.synctex.gz
+*.nav
+*.snm
+
+# Operating system files
+.DS_Store
+Thumbs.db

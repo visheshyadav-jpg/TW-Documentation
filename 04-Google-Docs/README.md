@@ -51,7 +51,7 @@ The document demonstrates headings, formatting, and structured content.
 
 Google Docs provides an efficient platform for creating, editing, formatting, and sharing documents. Its collaboration and automatic saving features make it useful for both academic and professional work.
 
-## 6. Output Screenshot
+## 8. Output Screenshot
 
 The following screenshot shows the sample document created using Google Docs.
 

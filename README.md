@@ -21,6 +21,17 @@ Each topic contains its own documentation, practical examples, and output screen
 - `outputs/` – Screenshots and generated outputs.
 - `README.md` – Topic-wise documentation.
 
+## Project Contents
+
+The repository includes:
+
+- LaTeX documents and mathematical formatting examples.
+- Beamer presentation with compiled PDF output.
+- Doxygen-generated C++ documentation.
+- Google Docs sample report.
+- Git commands and practical exercises.
+- GitHub repository management and sample C++ project.
+
 ## Purpose
 
 The purpose of this repository is to document the concepts, commands, tools, and practical work learned during the Technical Writing course.
